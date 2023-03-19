@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	resultado := funciones.Factorizar(5)
-	fmt.Printf("%v", resultado)
+	resultado := funciones.Factorizar(1)
+	if resultado != -1 {
+		fmt.Printf("%v", resultado)
+	}
 }
