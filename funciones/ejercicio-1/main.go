@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	funciones.Polinomio(3.0, 2.0, 1.0)
+	funciones.Polinomio(3.2, 2.0, 1.0, 4.0)
 }
